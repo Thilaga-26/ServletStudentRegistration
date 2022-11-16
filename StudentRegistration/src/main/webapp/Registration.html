@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Registration</title>
+</head>
+<body>
+
+<h1>Student Registration Form</h1>
+
+<form action="InsertController" method="post">
+<h3>For Data Insertion:</h3>
+Student Name:<input type="text"  name="sname"><br>
+Student Email:<input type="email"  name="semail"><br>
+Student Phono:<input type="text"  name="sphono"><br>
+Student Password:<input type="password"  name="spassword"><br>
+<input type="Submit"  value="Insert Registration">
+</form>
+<br><br>
+
+<form action="UpdateController" method="post">
+<h3>For Data Updation:</h3>
+Update Student Email:<input type="email"  name="semail"><br>
+OF Student Name:<input type="text"  name="sname"><br>
+<input type="Submit"  value="Update Registration">
+</form>
+<br><br>
+
+<form action="DeleteController" method="post">
+<h3>For Data Deletion:</h3>
+Enter the Name of Student whose data needs to get Deleted:<input type="text"  name="sname"><br>
+<input type="Submit"  value="Delete Registration">
+</form>
+<br><br>
+
+<form action="RetriveController"  method="post">
+<h3>Retrive Data:</h3>
+<input type="submit"  value="retrive">
+</form>
+
+</body>
+</html>
